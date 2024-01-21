@@ -27,3 +27,10 @@ function playRound(playerSelection, computerSelection) {
 
 document.write(computerSelection);
 playRound(playerSelection, computerSelection);
+
+
+//adding some experiment function for playerSelection
+function playerChoice (choice) {
+  document.getElementById(choice)
+  return choice
+}
